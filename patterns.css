@@ -1,202 +1,120 @@
-/* General Styles */
-body {
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #3E2723; /* Dark Brown */
-    background-color: #F5F5DC; /* Beige */
-  }
-  
-  h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
-    color: #8B4513; /* Saddle Brown */
-  }
-  
-  a {
-    text-decoration: none;
-    color: #556B2F; /* Dark Olive Green */
-  }
-  
-  a:hover {
-    color: #A0522D; /* Sienna */
-  }
-  
-  /* Header */
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #D2B48C; /* Tan */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #3E2723; /* Dark Brown */
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  nav ul li a {
-    color: #3E2723; /* Dark Brown */
-  }
-  
-  nav ul li a:hover {
-    color: #A0522D; /* Sienna */
-  }
-  
-  /* Patterns Page */
+/* Patterns Page Specific Styles */
+.patterns-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Filter Sidebar */
+.filter-sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #D2B48C; /* Tan */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-sidebar h3 {
+  margin-bottom: 15px;
+  color: #3E2723; /* Dark Brown */
+}
+
+.filter-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filter-options label {
+  color: #3E2723; /* Dark Brown */
+}
+
+/* Patterns Grid */
+.patterns-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.pattern-card {
+  background-color: #D2B48C; /* Tan */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.pattern-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.pattern-card h3 {
+  margin: 15px 0 10px;
+  color: #3E2723; /* Dark Brown */
+}
+
+.pattern-card p {
+  color: #3E2723; /* Dark Brown */
+  margin-bottom: 15px;
+}
+
+.view-button {
+  background-color: #A0522D; /* Sienna */
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #F5F5DC; /* Beige */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.view-button:hover {
+  background-color: #8B4513; /* Saddle Brown */
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  background-color: #A0522D; /* Sienna */
+  color: #F5F5DC; /* Beige */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #8B4513; /* Saddle Brown */
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .patterns-page {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
+    flex-direction: column;
   }
-  
-  .search-bar {
+
+  .filter-sidebar {
     width: 100%;
-    display: flex;
-    justify-content: center;
     margin-bottom: 20px;
   }
-  
-  .search-bar input {
-    width: 60%;
-    padding: 10px;
-    border: 2px solid #A0522D; /* Sienna */
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  .search-bar button {
-    padding: 10px 20px;
-    background-color: #A0522D; /* Sienna */
-    color: #F5F5DC; /* Beige */
-    border: none;
-    border-radius: 5px;
-    margin-left: 10px;
-    cursor: pointer;
-  }
-  
-  .search-bar button:hover {
-    background-color: #8B4513; /* Saddle Brown */
-  }
-  
-  .filter-sidebar {
-    width: 250px;
-    padding: 20px;
-    background-color: #D2B48C; /* Tan */
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .filter-sidebar h3 {
-    margin-bottom: 15px;
-    color: #3E2723; /* Dark Brown */
-  }
-  
-  .filter-options {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .filter-options label {
-    color: #3E2723; /* Dark Brown */
-  }
-  
+
   .patterns-grid {
-    flex: 1;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
-  
-  .pattern-card {
-    background-color: #D2B48C; /* Tan */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .pattern-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  .pattern-card h3 {
-    margin: 15px 0 10px;
-    color: #3E2723; /* Dark Brown */
-  }
-  
-  .pattern-card p {
-    color: #3E2723; /* Dark Brown */
-    margin-bottom: 15px;
-  }
-  
-  .view-button {
-    background-color: #A0522D; /* Sienna */
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: #F5F5DC; /* Beige */
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  .view-button:hover {
-    background-color: #8B4513; /* Saddle Brown */
-  }
-  
-  /* Footer */
-  footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #D2B48C; /* Tan */
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-    color: #3E2723; /* Dark Brown */
-  }
-  
-  .social-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 10px;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .patterns-page {
-      flex-direction: column;
-    }
-  
-    .filter-sidebar {
-      width: 100%;
-      margin-bottom: 20px;
-    }
-  
-    .search-bar input {
-      width: 100%;
-    }
-  
-    .search-bar button {
-      width: auto;
-    }
-  
-    .patterns-grid {
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 15px;
-    }
-  
-    .pattern-card {
-      min-height: auto;
-    }
-  }
+}

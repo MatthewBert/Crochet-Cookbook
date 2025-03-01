@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pattern Details - Crochet Cookbook</title>
-  <link rel="stylesheet" href="pattern-details.css">
+  <link rel="stylesheet" href="home.css"> <!-- General styles -->
+  <link rel="stylesheet" href="pattern-details.css"> <!-- Page-specific styles -->
 </head>
 <body>
   <header>
-    <div class="logo">Crochet Cookbook</div>
+    <div class="logo"><a href="index.html">Crochet Cookbook</a></div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -21,9 +22,35 @@
   </header>
 
   <main class="pattern-details">
-    <div id="pattern-content">
-      <!-- Pattern details will be dynamically inserted here -->
+    <div class="pattern-content">
+      <!-- Left Column: Main Image -->
+      <div class="pattern-image-box">
+        <img id="pattern-image" src="" alt="Pattern Image" class="pattern-image">
+      </div>
+
+      <!-- Right Column: Pattern Details -->
+      <div class="pattern-info">
+        <h1 id="pattern-title"></h1>
+        <p id="pattern-description"></p>
+        <p><strong>Category:</strong> <span id="pattern-category"></span></p>
+        <p><strong>Difficulty:</strong> <span id="pattern-difficulty"></span></p>
+        <p><strong>Colors:</strong> <span id="pattern-colors"></span></p>
+      </div>
     </div>
+
+    <!-- Video Section -->
+    <div class="video-section">
+      <h2>Video Tutorial</h2>
+      <a id="video-link" href="#" class="video-link">Watch Video</a>
+    </div>
+
+    <!-- Instructions Section -->
+    <div class="instructions-section">
+      <h2>Instructions</h2>
+      <p id="pattern-instructions"></p>
+    </div>
+
+    <!-- Back Button -->
     <a href="patterns.html" class="back-button">Back to Patterns</a>
   </main>
 

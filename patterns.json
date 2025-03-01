@@ -6,8 +6,9 @@
     "category": "Blankets",
     "difficulty": "Intermediate",
     "colors": ["Beige", "Brown", "Cream"],
-    "instructions": "Step 1: Chain 100...",
-    "image": "assets/cozy-blanket.jpg"
+    "instructions": "Step 1: Chain 100...\nStep 2: Single crochet in each stitch...",
+    "image": "assets/cozy-blanket.jpg",
+    "video": "https://www.youtube.com/watch?v=example1"
   },
   {
     "id": 2,
@@ -16,8 +17,9 @@
     "category": "Amigurumi",
     "difficulty": "Beginner",
     "colors": ["White", "Pink"],
-    "instructions": "Step 1: Magic ring...",
-    "image": "assets/amigurumi-bunny.jpg"
+    "instructions": "Step 1: Magic ring...\nStep 2: Single crochet 6 stitches...",
+    "image": "assets/amigurumi-bunny.jpg",
+    "video": "https://www.youtube.com/watch?v=example2"
   },
   {
     "id": 3,
@@ -26,7 +28,41 @@
     "category": "Wearables",
     "difficulty": "Beginner",
     "colors": ["Gray", "Blue"],
-    "instructions": "Step 1: Chain 50...",
-    "image": "assets/winter-scarf.jpg"
+    "instructions": "Step 1: Chain 50...\nStep 2: Double crochet in each stitch...",
+    "image": "assets/winter-scarf.jpg",
+    "video": "https://www.youtube.com/watch?v=example3"
+  },
+  {
+    "id": 4,
+    "title": "Floral Coasters",
+    "description": "Beautiful floral coasters to brighten up your table.",
+    "category": "Accessories",
+    "difficulty": "Easy",
+    "colors": ["Green", "Yellow", "Pink"],
+    "instructions": "Step 1: Magic ring...\nStep 2: Single crochet 8 stitches...",
+    "image": "assets/floral-coasters.jpg",
+    "video": "https://www.youtube.com/watch?v=example4"
+  },
+  {
+    "id": 5,
+    "title": "Baby Booties",
+    "description": "Adorable baby booties for your little one.",
+    "category": "Wearables",
+    "difficulty": "Intermediate",
+    "colors": ["Pink", "White"],
+    "instructions": "Step 1: Chain 10...\nStep 2: Single crochet in each stitch...",
+    "image": "assets/baby-booties.jpg",
+    "video": "https://www.youtube.com/watch?v=example5"
+  },
+  {
+    "id": 6,
+    "title": "Market Bag",
+    "description": "A sturdy and stylish market bag for your groceries.",
+    "category": "Accessories",
+    "difficulty": "Advanced",
+    "colors": ["Blue", "White"],
+    "instructions": "Step 1: Chain 60...\nStep 2: Double crochet in each stitch...",
+    "image": "assets/market-bag.jpg",
+    "video": "https://www.youtube.com/watch?v=example6"
   }
 ]

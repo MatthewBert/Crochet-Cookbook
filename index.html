@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-    <div class="logo">Crochet Cookbook</div>
+    <div><a href="index.html" class="logo">Crochet Cookbook</a></div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -27,27 +27,10 @@
     </div>
   </section>
 
-  <section class="featured-patterns">
-    <h2>Featured Patterns</h2>
-    <div class="pattern-grid">
-      <div class="pattern-card">
-        <img src="assets/cozy-blanket.jpg" alt="Cozy Blanket">
-        <h3>Cozy Blanket</h3>
-        <p>A warm and easy-to-make blanket for chilly nights.</p>
-        <a href="#" class="view-button">View Pattern</a>
-      </div>
-      <div class="pattern-card">
-        <img src="assets/amigurumi-bunny.jpg" alt="Amigurumi Bunny">
-        <h3>Amigurumi Bunny</h3>
-        <p>A cute bunny amigurumi pattern.</p>
-        <a href="#" class="view-button">View Pattern</a>
-      </div>
-      <div class="pattern-card">
-        <img src="assets/winter-scarf.jpg" alt="Winter Scarf">
-        <h3>Winter Scarf</h3>
-        <p>A cozy scarf perfect for winter.</p>
-        <a href="#" class="view-button">View Pattern</a>
-      </div>
+  <section class="random-patterns">
+    <h2>Random Patterns</h2>
+    <div class="pattern-grid" id="patterns-grid">
+      <!-- Random patterns will be dynamically inserted here by JavaScript -->
     </div>
   </section>
 
@@ -77,5 +60,8 @@
       <a href="#">Facebook</a>
     </div>
   </footer>
+
+  <!-- JavaScript to Load Featured Patterns -->
+  <script src="scripts.js"></script>
 </body>
 </html>

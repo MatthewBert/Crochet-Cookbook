@@ -1,10 +1,20 @@
+// Fetch patterns from the JSON file
 fetch('patterns.json')
   .then(response => response.json())
   .then(patterns => {
     const patternsGrid = document.getElementById('patterns-grid');
 
-    // Loop through each pattern and create a card
-    patterns.forEach(pattern => {
+    // Function to get 3 random patterns
+    const getRandomPatterns = (patterns, count) => {
+      const shuffled = patterns.sort(() => 0.5 - Math.random()); // Shuffle the array
+      return shuffled.slice(0, count); // Return the first `count` patterns
+    };
+
+    // Get 3 random patterns
+    const randomPatterns = getRandomPatterns(patterns, 3);
+
+    // Loop through each random pattern and create a card
+    randomPatterns.forEach(pattern => {
       const patternCard = document.createElement('div');
       patternCard.classList.add('pattern-card');
 

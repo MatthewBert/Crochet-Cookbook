@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Patterns - Crochet Cookbook</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="patterns.css">
 </head>
 <body>
   <header>
@@ -34,25 +34,12 @@
         <label><input type="checkbox" name="category" value="blankets"> Blankets</label>
         <label><input type="checkbox" name="category" value="amigurumi"> Amigurumi</label>
         <label><input type="checkbox" name="category" value="wearables"> Wearables</label>
-        <label><input type="checkbox" name="category" value="accessories"> Accessories</label>
       </div>
     </aside>
 
     <!-- Patterns Grid -->
-    <section class="patterns-grid">
-      <div class="pattern-card">
-        <img src="assets/cozy-blanket.jpg" alt="Cozy Blanket">
-        <h3>Cozy Blanket</h3>
-        <p>A warm and easy-to-make blanket for chilly nights.</p>
-        <a href="#" class="view-button">View Pattern</a>
-      </div>
-      <div class="pattern-card">
-        <img src="assets/hero-image.jpg" alt="Sample Pattern">
-        <h3>Sample Pattern</h3>
-        <p>This is a sample pattern description.</p>
-        <a href="#" class="view-button">View Pattern</a>
-      </div>
-      <!-- Add more pattern cards as needed -->
+    <section class="patterns-grid" id="patterns-grid">
+      <!-- Patterns will be dynamically inserted here by JavaScript -->
     </section>
   </main>
 
@@ -64,5 +51,8 @@
       <a href="#">Facebook</a>
     </div>
   </footer>
+
+  <!-- JavaScript to Load Patterns -->
+  <script src="scripts.js"></script>
 </body>
 </html>

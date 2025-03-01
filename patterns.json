@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Cozy Blanket",
+    "description": "A warm and easy-to-make blanket for chilly nights.",
+    "category": "Blankets",
+    "difficulty": "Intermediate",
+    "colors": ["Beige", "Brown", "Cream"],
+    "instructions": "Step 1: Chain 100...",
+    "image": "assets/cozy-blanket.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Amigurumi Bunny",
+    "description": "A cute bunny amigurumi pattern.",
+    "category": "Amigurumi",
+    "difficulty": "Beginner",
+    "colors": ["White", "Pink"],
+    "instructions": "Step 1: Magic ring...",
+    "image": "assets/amigurumi-bunny.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Winter Scarf",
+    "description": "A cozy scarf perfect for winter.",
+    "category": "Wearables",
+    "difficulty": "Beginner",
+    "colors": ["Gray", "Blue"],
+    "instructions": "Step 1: Chain 50...",
+    "image": "assets/winter-scarf.jpg"
+  }
+]

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patterns - Crochet Cookbook</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Crochet Cookbook</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="patterns.html">Patterns</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="patterns-page">
+    <!-- Search Bar -->
+    <section class="search-bar">
+      <input type="text" placeholder="Search patterns..." aria-label="Search patterns">
+      <button type="button">Search</button>
+    </section>
+
+    <!-- Filter Sidebar -->
+    <aside class="filter-sidebar">
+      <h3>Filters</h3>
+      <div class="filter-options">
+        <label><input type="checkbox" name="category" value="blankets"> Blankets</label>
+        <label><input type="checkbox" name="category" value="amigurumi"> Amigurumi</label>
+        <label><input type="checkbox" name="category" value="wearables"> Wearables</label>
+        <label><input type="checkbox" name="category" value="accessories"> Accessories</label>
+      </div>
+    </aside>
+
+    <!-- Patterns Grid -->
+    <section class="patterns-grid">
+      <div class="pattern-card">
+        <img src="assets/cozy-blanket.jpg" alt="Cozy Blanket">
+        <h3>Cozy Blanket</h3>
+        <p>A warm and easy-to-make blanket for chilly nights.</p>
+        <a href="#" class="view-button">View Pattern</a>
+      </div>
+      <div class="pattern-card">
+        <img src="assets/hero-image.jpg" alt="Sample Pattern">
+        <h3>Sample Pattern</h3>
+        <p>This is a sample pattern description.</p>
+        <a href="#" class="view-button">View Pattern</a>
+      </div>
+      <!-- Add more pattern cards as needed -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Crochet Cookbook</p>
+    <div class="social-links">
+      <a href="#">Instagram</a>
+      <a href="#">Pinterest</a>
+      <a href="#">Facebook</a>
+    </div>
+  </footer>
+</body>
+</html>

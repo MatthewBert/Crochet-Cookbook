@@ -3,7 +3,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const patternId = urlParams.get('id');
 
 // Fetch the pattern data
-fetch('patterns.json')
+fetch('data/patterns.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('Network response was not ok');

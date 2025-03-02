@@ -7,7 +7,7 @@
     "difficulty": "Intermediate",
     "colors": ["Beige", "Brown", "Cream"],
     "instructions": "Step 1: Chain 100...\nStep 2: Single crochet in each stitch...",
-    "image": "assets/cozy-blanket.jpg",
+    "image": "assets/images/cozy-blanket.jpg",
     "video": "https://www.youtube.com/watch?v=example1"
   },
   {
@@ -18,7 +18,7 @@
     "difficulty": "Beginner",
     "colors": ["White", "Pink"],
     "instructions": "Step 1: Magic ring...\nStep 2: Single crochet 6 stitches...",
-    "image": "assets/amigurumi-bunny.jpg",
+    "image": "assets/images/amigurumi-bunny.jpg",
     "video": "https://www.youtube.com/watch?v=example2"
   },
   {
@@ -29,7 +29,7 @@
     "difficulty": "Beginner",
     "colors": ["Red", "Grey"],
     "instructions": "Step 1: Chain 50...\nStep 2: Double crochet in each stitch...",
-    "image": "assets/winter-scarf.jpg",
+    "image": "assets/images/winter-scarf.jpg",
     "video": "https://www.youtube.com/watch?v=example3"
   },
   {
@@ -40,7 +40,7 @@
     "difficulty": "Easy",
     "colors": ["Green", "Yellow", "Pink"],
     "instructions": "Step 1: Magic ring...\nStep 2: Single crochet 8 stitches...",
-    "image": "assets/floral-coasters.jpg",
+    "image": "assets/images/floral-coasters.jpg",
     "video": "https://www.youtube.com/watch?v=example4"
   },
   {
@@ -51,7 +51,7 @@
     "difficulty": "Intermediate",
     "colors": ["Pink", "White"],
     "instructions": "Step 1: Chain 10...\nStep 2: Single crochet in each stitch...",
-    "image": "assets/baby-booties.jpg",
+    "image": "assets/images/baby-booties.jpg",
     "video": "https://www.youtube.com/watch?v=example5"
   },
   {
@@ -62,7 +62,7 @@
     "difficulty": "Advanced",
     "colors": ["Green", "Brown"],
     "instructions": "Step 1: Chain 60...\nStep 2: Double crochet in each stitch...",
-    "image": "assets/market-bag.jpg",
+    "image": "assets/images/market-bag.jpg",
     "video": "https://www.youtube.com/watch?v=example6"
   }
 ]

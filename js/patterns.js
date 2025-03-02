@@ -3,7 +3,7 @@ let currentPage = 1; // Tracks the current page
 const patternsPerPage = 10; // Number of patterns to display per page
 
 // Fetch patterns from the JSON file
-fetch('patterns.json')
+fetch('data/patterns.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('Network response was not ok');

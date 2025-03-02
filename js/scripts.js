@@ -1,5 +1,5 @@
 // Fetch patterns from the JSON file
-fetch('patterns.json')
+fetch('data/patterns.json')
   .then(response => response.json())
   .then(patterns => {
     const patternsGrid = document.getElementById('patterns-grid');

@@ -1,14 +1,15 @@
 /* General Styles */
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   color: #3E2723; /* Dark Brown */
   background-color: #F5F5DC; /* Beige */
+
 }
 
 h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #8B4513; /* Saddle Brown */
 }
 
@@ -54,7 +55,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-  background-image: url('assets/hero-image.jpg');
+  background-image: url('/assets/images/hero-image.jpg');
   background-size: cover;
   background-position: center;
   height: 400px;

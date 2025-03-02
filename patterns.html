@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <div ><a href="index.html" class="logo">Crochet Catalogue</a></div>
+    <div><a href="index.html" class="logo">Crochet Catalogue</a></div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -27,28 +27,24 @@
       <button type="button">Search</button>
     </section>
 
-    <!-- Filter Sidebar -->
-    <aside class="filter-sidebar">
-      <h3>Filters</h3>
-      <div class="filter-options">
-        <label><input type="checkbox" name="category" value="blankets"> Blankets</label>
-        <label><input type="checkbox" name="category" value="amigurumi"> Amigurumi</label>
-        <label><input type="checkbox" name="category" value="wearables"> Wearables</label>
-        <label><input type="checkbox" name="category" value="accessories"> Accessories</label>
+    <!-- Filter and Patterns Grid -->
+    <section class="filter-and-grid">
+      <!-- Filter Section -->
+      <aside class="filter-sidebar">
+        <h3>Filters</h3>
+        <div class="filter-options">
+          <label><input type="checkbox" name="category" value="blankets"> Blankets</label>
+          <label><input type="checkbox" name="category" value="amigurumi"> Amigurumi</label>
+          <label><input type="checkbox" name="category" value="wearables"> Wearables</label>
+          <label><input type="checkbox" name="category" value="accessories"> Accessories</label>
+        </div>
+      </aside>
+
+      <!-- Patterns Grid -->
+      <div class="patterns-grid" id="patterns-grid">
+        <!-- Patterns will be dynamically inserted here by JavaScript -->
       </div>
-    </aside>
-
-    <!-- Patterns Grid -->
-    <section class="patterns-grid" id="patterns-grid">
-      <!-- Patterns will be dynamically inserted here by JavaScript -->
     </section>
-
-    <!-- Pagination -->
-    <div class="pagination" id="pagination">
-      <button id="prev-page">Previous</button>
-      <span id="page-info"></span>
-      <button id="next-page">Next</button>
-    </div>
   </main>
 
   <footer>

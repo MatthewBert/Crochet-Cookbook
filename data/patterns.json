@@ -64,5 +64,16 @@
     "instructions": "Step 1: Chain 60...\nStep 2: Double crochet in each stitch...",
     "image": "assets/images/market-bag.jpg",
     "video": "https://www.youtube.com/watch?v=example6"
+  },
+  {
+    "id": 7,
+    "title": "test",
+    "description": "test desc",
+    "category": "Accessories",
+    "difficulty": "Advanced",
+    "colors": ["Green", "Brown"],
+    "instructions": "Test",
+    "image": "assets/images/market-bag.jpg",
+    "video": "https://www.youtube.com/watch?v=example6"
   }
 ]

@@ -27,7 +27,7 @@
     "description": "A cozy scarf perfect for winter.",
     "category": "Wearables",
     "difficulty": "Beginner",
-    "colors": ["Gray", "Blue"],
+    "colors": ["Red", "Grey"],
     "instructions": "Step 1: Chain 50...\nStep 2: Double crochet in each stitch...",
     "image": "assets/winter-scarf.jpg",
     "video": "https://www.youtube.com/watch?v=example3"
@@ -46,7 +46,7 @@
   {
     "id": 5,
     "title": "Baby Booties",
-    "description": "Adorable baby booties for your little one.",
+    "description": "Adorable pig baby booties for your little one.",
     "category": "Wearables",
     "difficulty": "Intermediate",
     "colors": ["Pink", "White"],
@@ -60,7 +60,7 @@
     "description": "A sturdy and stylish market bag for your groceries.",
     "category": "Accessories",
     "difficulty": "Advanced",
-    "colors": ["Blue", "White"],
+    "colors": ["Green", "Brown"],
     "instructions": "Step 1: Chain 60...\nStep 2: Double crochet in each stitch...",
     "image": "assets/market-bag.jpg",
     "video": "https://www.youtube.com/watch?v=example6"

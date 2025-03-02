@@ -32,12 +32,13 @@
 .pattern-info h1 {
   font-size: 36px;
   margin-bottom: 20px;
+  color: #BAD8B6; /* Heading Text Color */
 }
 
 .pattern-info p {
   font-size: 18px;
   line-height: 1.6;
-  color: #3E2723; /* Dark Brown */
+  color: #BAD8B6; /* Text Color */
   margin-bottom: 15px;
 }
 
@@ -45,6 +46,7 @@
   font-size: 24px;
   margin-top: 30px;
   margin-bottom: 15px;
+  color: #BAD8B6; /* Heading Text Color */
 }
 
 /* Video Section */
@@ -55,20 +57,22 @@
 .video-section h2 {
   font-size: 24px;
   margin-bottom: 15px;
+  color: #BAD8B6; /* Heading Text Color */
 }
 
 .video-link {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #A0522D; /* Sienna */
-  color: #F5F5DC; /* Beige */
+  background-color: #BAD8B6; /* Button Color */
+  color: #FFFFFF; /* Button Text Color */
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
 }
 
 .video-link:hover {
-  background-color: #8B4513; /* Saddle Brown */
+  background-color: #F9F6E6;; /* Button Hover Color */
+  color: #BAD8B6; /* Button Text Hover Color */
 }
 
 /* Instructions Section */
@@ -79,12 +83,13 @@
 .instructions-section h2 {
   font-size: 24px;
   margin-bottom: 15px;
+  color: #BAD8B6; /* Heading Text Color */
 }
 
 .instructions-section p {
   font-size: 18px;
   line-height: 1.6;
-  color: #3E2723; /* Dark Brown */
+  color: #BAD8B6; /* Text Color */
   white-space: pre-line; /* Preserve line breaks in instructions */
 }
 
@@ -93,15 +98,16 @@
   display: inline-block;
   margin-top: 30px;
   padding: 10px 20px;
-  background-color: #A0522D; /* Sienna */
-  color: #F5F5DC; /* Beige */
+  background-color: #BAD8B6; /* Button Color */
+  color: #FFFFFF; /* Button Text Color */
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
 }
 
 .back-button:hover {
-  background-color: #8B4513; /* Saddle Brown */
+  background-color: #F9F6E6; /* Button Hover Color */
+  color: #BAD8B6; /* Button Text Hover Color */
 }
 
 /* Responsive Design */

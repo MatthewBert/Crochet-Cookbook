@@ -1,58 +1,3 @@
-/* General Styles */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-  color: #3E2723; /* Dark Brown */
-  background-color: #F5F5DC; /* Beige */
-
-}
-
-h1, h2, h3 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #8B4513; /* Saddle Brown */
-}
-
-a {
-  text-decoration: none;
-  color: #556B2F; /* Dark Olive Green */
-}
-
-a:hover {
-  color: #A0522D; /* Sienna */
-}
-
-/* Header */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #D2B48C; /* Tan */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #3E2723; /* Dark Brown */
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-nav ul li a {
-  color: #3E2723; /* Dark Brown */
-}
-
-nav ul li a:hover {
-  color: #A0522D; /* Sienna */
-}
-
 /* Hero Section */
 .hero {
   background-image: url('/assets/images/hero-image.jpg');
@@ -63,7 +8,7 @@ nav ul li a:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #F5F5DC; /* Beige */
+  color: #FFFFFF; /* Hero Text Color */
   position: relative; /* Required for the overlay */
 }
 
@@ -75,7 +20,7 @@ nav ul li a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(231, 198, 173, 0.75); /* Semi-transparent black */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
 }
 
 /* Hero Content */
@@ -87,21 +32,23 @@ nav ul li a:hover {
 .hero-content h1 {
   font-size: 48px;
   margin-bottom: 20px;
+  color: #F9F6E6; /* Hero Heading Text Color */
 }
 
 .cta-button {
-  background-color: #A0522D; /* Sienna */
+  background-color: #BAD8B6; /* Button Color */
   padding: 10px 20px;
   border-radius: 5px;
-  color: #F5F5DC; /* Beige */
+  color: #F9F6E6; /* Button Text Color */
   font-weight: bold;
 }
 
 .cta-button:hover {
-  background-color: #8B4513; /* Saddle Brown */
+  background-color: #F9F6E6; /* Button Hover Color */
+  color: #BAD8B6; /* Button Text Hover Color */
 }
 
-/* random Patterns */
+/* Random Patterns */
 .random-patterns {
   padding: 40px 20px;
   text-align: center;
@@ -115,7 +62,7 @@ nav ul li a:hover {
 }
 
 .pattern-card {
-  background-color: #D2B48C; /* Tan */
+  background-color: #E1EACD; /* Pattern Card Background Color */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -130,68 +77,27 @@ nav ul li a:hover {
 
 .pattern-card h3 {
   margin: 15px 0 10px;
-  color: #3E2723; /* Dark Brown */
+  font-weight: bold;
+  color: #BAD8B6; /* Pattern Card Heading Text Color */
 }
 
 .pattern-card p {
-  color: #3E2723; /* Dark Brown */
+  color: #FFFFFF; /* Pattern Card Text Color */
   margin-bottom: 15px;
 }
 
 .view-button {
-  background-color: #A0522D; /* Sienna */
+  background-color: #BAD8B6; /* Button Color */
   padding: 10px 20px;
   border-radius: 5px;
-  color: #F5F5DC; /* Beige */
+  color: #FFFFFF; /* Button Text Color */
   font-weight: bold;
   text-decoration: none;
 }
 
 .view-button:hover {
-  background-color: #8B4513; /* Saddle Brown */
-}
-
-/* Categories */
-.categories {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.category-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
-
-.category-card {
-  background-color: #D2B48C; /* Tan */
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.category-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #D2B48C; /* Tan */
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-  color: #3E2723; /* Dark Brown */
-}
-
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 10px;
+  background-color: #F9F6E6; /* Button Hover Color */
+  color: #BAD8B6; /* Button Text Hover Color */
 }
 
 /* Responsive Design */

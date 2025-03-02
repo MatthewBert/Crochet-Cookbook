@@ -1,68 +1,68 @@
 /* General Styles */
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    color: #3E2723; /* Dark Brown */
-    background-color: #F5F5DC; /* Beige */
-  }
-  
-  h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
-    color: #8B4513; /* Saddle Brown */
-  }
-  
-  a {
+    color: #F9F6E6; /* Text Color */
+    background-color: #FFFFFF; /* Background Color */
+}
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF; /* Heading Text Color */
+}
+
+a {
     text-decoration: none;
-    color: #556B2F; /* Dark Olive Green */
-  }
-  
-  a:hover {
-    color: #A0522D; /* Sienna */
-  }
-  
-  /* Header */
-  header {
+    color: #FFFFFF; /* Link Text Color */
+}
+
+a:hover {
+    color: #F9F6E6; /* Link Hover Color */
+}
+
+/* Header */
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #D2B48C; /* Tan */
+    background-color: #BAD8B6; /* Header Background Color */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .logo {
+}
+
+.logo {
     font-size: 24px;
     font-weight: bold;
-    color: #3E2723; /* Dark Brown */
-  }
-  
-  nav ul {
+    color: #F9F6E6; /* Logo Text Color */
+}
+
+nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
-  }
-  
-  nav ul li a {
-    color: #3E2723; /* Dark Brown */
-  }
-  
-  nav ul li a:hover {
-    color: #A0522D; /* Sienna */
-  }
-  
-  /* Footer */
-  footer {
+}
+
+nav ul li a {
+    color: #ffffff; /* Navigation Link Text Color */
+}
+
+nav ul li a:hover {
+    color: #F9F6E6; /* Navigation Link Hover Color */
+}
+
+/* Footer */
+footer {
     text-align: center;
     padding: 20px;
-    background-color: #D2B48C; /* Tan */
+    background-color: #E1EACD; /* Footer Background Color */
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-    color: #3E2723; /* Dark Brown */
-  }
-  
-  .social-links {
+    color: #ffffff; /* Footer Text Color */
+}
+
+.social-links {
     display: flex;
     justify-content: center;
     gap: 20px;
     margin-top: 10px;
-  }
+}
